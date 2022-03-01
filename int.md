@@ -90,6 +90,6 @@ if (pending) {
 
 工作队列运行于内核进程上下文，而 tasklets 运行于软中断上下文。这意味着工作队列函数不必像 tasklets 一样必须是原子性的。Tasklets 总是运行于它提交自的那个处理器，工作队列在默认情况下也是这样
 
-http://kernel.meizu.com/linux-workqueue.html
-https://xinqiu.gitbooks.io/linux-insides-cn/content/Interrupts/linux-interrupts-9.html
+<http://kernel.meizu.com/linux-workqueue.html>
+<https://xinqiu.gitbooks.io/linux-insides-cn/content/Interrupts/linux-interrupts-9.html>
 
